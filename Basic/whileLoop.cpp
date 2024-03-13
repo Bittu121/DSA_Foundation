@@ -68,3 +68,7 @@ int main()
   cout << sum << endl;
   return 0;
 }
+// Note-
+
+// Tc O(n)
+// Sc O(1)
