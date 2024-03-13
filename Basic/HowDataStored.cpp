@@ -32,6 +32,6 @@ int main()
   char a = 234354;
   cout << a << endl;
   unsigned b = -123;
-  cout << b << endl;
+  cout << "unsigned" << b << endl;
   return 0;
 }
