@@ -6,19 +6,4 @@
 <h3 align="left">Languages and Tools:</h3>
 <P>C++</P><p>Data Structure & Algorithms</p>
 
-Note-
-int main()
-{
-  int n;
-  cin >> n;
-  int i = 0, sum = 0;
-  while (i <= n)
-  {
-    sum = sum + i;
-    i = i + 2;
-  }
-  cout << sum << endl;
-  return 0;
-}
-Tc O(n)
-Sc O(1)
+
