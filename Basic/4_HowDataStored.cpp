@@ -16,22 +16,22 @@ using namespace std;
 //   return 0;
 // }
 
-// int main()
-// {
-//   int i = 10;
-//   char c = 'a';
-//   int output = i + c;
-//   cout << output << endl;
-//   char d = i + c;
-//   cout << d << endl;
-//   return 0;
-// }
-
 int main()
 {
-  char a = 234354;
-  cout << a << endl;
-  unsigned b = -123;
-  cout << "unsigned" << b << endl;
+  int i = 10;
+  char c = 'a';
+  int output = i + c;
+  cout << output << endl; // 107
+  char d = i + c;
+  cout << d << endl; // k
   return 0;
 }
+
+// int main()
+// {
+//   char a = 234354;
+//   cout << a << endl;
+//   unsigned b = -123;
+//   cout << "unsigned" << b << endl;
+//   return 0;
+// }
