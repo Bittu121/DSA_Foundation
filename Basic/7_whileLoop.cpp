@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <cmath>
 using namespace std;
 // int main()
 // {
@@ -252,3 +253,92 @@ using namespace std;
 // }
 
 // code-3
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   int i = 1;
+//   while (i <= n)
+//   {
+//     int k = 1;
+//     while (k <= n - i)
+//     {
+//       cout << " ";
+//       k++;
+//     }
+//     int j = 1;
+//     while (j <= (2 * i) - 1)
+//     {
+//       cout << "*";
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+//   return 0;
+// }
+
+// Assignment
+// Q1. calculate total salary
+
+// int main()
+// {
+//   int basic;
+//   cin >> basic;
+//   char grade;
+//   cin >> grade;
+//   int allow;
+//   double hra, da, pf;
+//   hra = (0.5 * basic);
+//   da = (0.2 * basic);
+//   pf = (0.11 * basic);
+//   if (grade == 'A')
+//   {
+//     allow = 1700;
+//   }
+//   else if (grade == 'B')
+//   {
+//     allow = 1500;
+//   }
+//   else
+//   {
+//     allow = 1300;
+//   }
+
+//   long double totalSalary = basic + hra + da + allow - pf;
+//   // totalSalary = (round(totalSalary));
+//   // int ts = totalSalary;
+
+//   int ts = round(totalSalary);
+//   cout << ts << endl;
+//   return 0;
+// }
+
+// Q2. print sum of even or odd number
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   int sumofeven = 0, sumofodd = 0;
+//   while (n > 0)
+//   {
+//     int j = n % 10;
+//     if (j % 2 == 0)
+//       sumofeven += j;
+//     else
+//       sumofodd += j;
+//     n = n / 10;
+//   }
+//   cout << sumofeven << " " << sumofodd;
+//   return 0;
+// }
+
+// Q3. find the power
+// int main()
+// {
+//   int n, x;
+//   cin >> n >> x;
+//   int p = pow(n, x);
+//   cout << p;
+//   return 0;
+// }
