@@ -161,10 +161,118 @@ using namespace std;
 // 345
 // 4567
 
-int main()
-{
-  int n;
-  cin >> n;
-  
-  return 0;
-}
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   int i = 1;
+//   int k = i;
+//   while (i <= n)
+//   {
+//     int j = 1;
+//     while (j <= i)
+//     {
+//       cout << k;
+//       k++;
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+//   return 0;
+// }
+// 1
+// 23
+// 456
+// 78910
+// code
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   int i = 1;
+//   while (i <= n)
+//   {
+//     int j = 1;
+//     while (j <= i)
+//     {
+//       cout << "*";
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+//   return 0;
+// }
+// *
+// **
+// ***
+// ****
+
+// code
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   int i = 1;
+//   while (i <= n)
+//   {
+//     int j = 1;
+//     while (j <= i)
+//     {
+//       cout << i;
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+//   return 0;
+// }
+
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   int i = 1;
+//   while (i <= n)
+//   {
+//     int j = i;
+//     while (j <= 2 * i - 1)
+//     {
+//       cout << i;
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+//   return 0;
+// }
+// 1
+// 22
+// 333
+// 4444
+
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   int i = 1;
+//   while (i <= n)
+//   {
+//     int j = 1;
+//     int val = i;
+//     while (j <= i)
+//     {
+//       cout << val;
+//       val = val - 1;
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+//   return 0;
+// }
+// 1
+// 21
+// 321
+// 4321
