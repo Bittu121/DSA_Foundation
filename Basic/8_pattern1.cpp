@@ -276,3 +276,146 @@ using namespace std;
 // 21
 // 321
 // 4321
+
+// character pattern
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   int i = 1;
+//   while (i <= n)
+//   {
+//     int j = 1;
+//     while (j <= n)
+//     {
+//       char ch = 'A' + j - 1;
+//       cout << ch;
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+//   return 0;
+// }
+// ABCD
+// ABCD
+// ABCD
+// ABCD
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   int i = 1;
+//   while (i <= n)
+//   {
+//     int j = 1;
+//     char strch = 'A' + i - 1;
+//     while (j <= n)
+//     {
+//       char ch = strch + j - 1;
+//       cout << ch;
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+//   return 0;
+// }
+// ABCD
+// BCDE
+// CDEF
+// DEFG
+
+// code
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   int i = 1;
+//   while (i <= n)
+//   {
+//     int j = 1;
+//     char strch = 'A' + i - 1;
+//     while (j <= i)
+//     {
+//       char k = strch;
+//       cout << k;
+//       k++;
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+//   return 0;
+// }
+// A
+// BB
+// CCC
+// DDDD
+
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   int i = 1;
+//   while (i <= n)
+//   {
+//     int j = 1;
+//     char strch = 'A' + i - 1;
+//     while (j <= i)
+//     {
+//       char ch = strch + j - 1;
+//       cout << ch;
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+//   return 0;
+// }
+// A
+// BC
+// CDE
+// DEFG
+
+// code
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   int i = 0;
+//   while (i <= n)
+//   {
+//     int j = 0;
+//     char strch = 'E' - i + 1;
+//     while (j <= i)
+//     {
+//       char ch = strch + j - 1;
+//       cout << ch;
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+//   return 0;
+// }
+int main()
+{
+  int n;
+  cin >> n;
+  int i = 1;
+  while (i <= n)
+  {
+    int j = 1;
+    char strch = 'A' + i - 1;
+    while (j <= i)
+    {
+      char ch = strch + j - 1;
+      cout << ch;
+      j++;
+    }
+    cout << endl;
+    i++;
+  }
+  return 0;
+}
