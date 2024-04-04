@@ -30,6 +30,7 @@ int main()
 
   // string str = "coding Ninja";
   // cout << str << " string size " << sizeof(str) << endl;
+
   // string str1 = " ";
   // cout << str1 << " string size " << sizeof(str1) << endl;
 
@@ -41,13 +42,3 @@ int main()
   return 0;
 }
 
-// #include <bits/stdc++.h>
-// using namespace std;
-// int main()
-// {
-//   cout << "Hello\n";
-//   cout << "world" << endl;
-//   cout << "world!" << endl;
-//   cout << "carrier"<< "labs";
-//   return 0;
-// }
