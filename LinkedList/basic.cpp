@@ -1,18 +1,18 @@
 #include<bits/stdc++.h>
+#include "class.cpp"
 using namespace std;
-class Node{
-    public:
-    int data;
-    Node*next;
-    Node(int data){
-        this->data = data;
-        this->next =NULL;
-    }
-};
+
 void print(Node*head){
     Node*temp = head;
     while(temp!=NULL){
         cout<<temp->data<<"->";
+        temp = temp->next;
+    }
+}
+void increment(Node*head){
+     Node*temp = head;
+     while(temp!=NULL){
+        temp->data++;
         temp = temp->next;
     }
 }
@@ -51,6 +51,8 @@ int main(){
     // cout<<head->data<<"->";
     // head = head->next;
     // cout<<head->data;
+    // print(head);
+    increment(head);
     print(head);
     return 0;
 }
