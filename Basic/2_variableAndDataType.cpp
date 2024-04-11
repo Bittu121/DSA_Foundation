@@ -35,10 +35,10 @@ int main()
   // cout << str1 << " string size " << sizeof(str1) << endl;
 
   // calculate simple interest
-  float principle, rate, time;
-  cin >> principle >> rate >> time;
-  double si = (principle * rate * time) / 100;
-  cout << "simple interest " << si << endl;
+  // float principle, rate, time;
+  // cin >> principle >> rate >> time;
+  // double si = (principle * rate * time) / 100;
+  // cout << "simple interest " << si << endl;
   return 0;
 }
 
