@@ -11,6 +11,7 @@ class Node{
 };
 Node*takeInput(){
     int data;
+    cout<<"Enter data";
     cin>>data;
     Node*head = NULL;
     while(data!=-1){

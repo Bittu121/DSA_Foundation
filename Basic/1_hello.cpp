@@ -5,7 +5,7 @@ int main()
   cout << "Hello\n";
   cout << "world" << endl;
   cout << "world!" << endl;
-  cout<<"carrier"<<"labs";
+  cout<<"carrier"<<" ";
   return 0;
 }
 
