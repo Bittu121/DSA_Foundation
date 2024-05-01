@@ -88,33 +88,149 @@ using namespace std;
 //    return 0;
 //  }
 
-int linearSearch(int ans[], int n, int key)
-{
-  for (int i = 0; i < n; i++)
-  {
-    if (ans[i] == key)
-    {
-      return i;
-    }
-  }
-  return -1;
-}
-int main()
-{
+//Linear search
+// int linearSearch(int arr[],int n,int val){
+//   for(int i=0;i<n;i++){
+//     if(arr[i]==val){
+//       return i;
+//     }
+//   }
+//   return -1;
+// }
+// int main(){
+//   int t;
+//   cin>>t;
+//   while(t--){
+//     int n;
+//     cin>>n;
+//     int arr[100];
+//     for(int i=0;i<n;i++){
+//       cin>>arr[i];
+//     }
+//     int val;
+//     cin>>val;
+//     cout<<linearSearch(arr,n,val);
+//   }
+//   return 0;
+// }
 
-  int n;
-  cin >> n;
-  int ans[100];
-  for (int i = 0; i < n; i++)
-  {
-    cin >> ans[i];
-  }
-  int key;
-  cin >> key;
-  int keys = linearSearch(ans, n, key);
-  cout << keys;
-  return 0;
-}
+
+//Two pointer Approach
+//Arrange Number
+// void arrangeNumber(int arr[],int n){
+//   int i=0,j=n-1;
+//   int count=0;
+//   while(i<=j){
+//     if(count%2==1){
+//       arr[i]=count;
+//       count++;
+//       i++;
+//     }
+//     else{
+//       arr[j] = count;
+//       count++;
+//       j--;
+//     }
+//   }
+// }
+// int main(){
+//   int t;
+//   cin>>t;
+//   while(t--){
+//     int n;
+//     cin>>n;
+//     int arr[100];
+//     for(int i=0;i<n;i++){
+//       cin>>arr[i];
+//     }
+//     arrangeNumber(arr,n);
+//     return 0;
+//   }
+// }
+
+// void arrangeNumber(int arr[],int n){
+//   int i=0,j=n-1;
+//   int count=0;
+//   while(i<=j){
+//     if(count%2==1){
+//       arr[i]=count;
+//       count++;
+//       i++;
+//     }
+//     else{
+//       arr[j] = count;
+//       count++;
+//       j--;
+//     }
+//   }
+// }
+// int main(){
+//     int arr[]={1,3,5,9,4,2};
+//     int size = sizeof(arr)/sizeof(int);
+//     arrangeNumber(arr,size);
+//     return 0;
+//   }
+
+//more on array
+// void printArray(int arr[],int size){
+//   for(int i=0;i<size;i++){
+//     cout<<arr[i]<<" ";
+//   }
+// }
+// int main(){
+//   // int arr[5] = {1,2,3};
+//   // int arr[6] = {1,2,3};
+//   // int arr[5] = {5};
+//   // int size =sizeof(arr)/sizeof(int); 
+//   // printArray(arr,size);
+
+//   // int arr[5] = {5};
+//   // printArray(arr,5);
+
+//   // int arr[10] = {0};
+//   // printArray(arr,10);
+
+//   int arr[10] = {1};
+//   printArray(arr,10);
+//   return 0;
+// }
+
+
+
+
+// void arrayPrint(int arr[],int size){
+//   for(int i=0;i<size;i++){
+//     cout<<arr[i]<<" ";
+//   }
+//   cout<<endl;
+// }
+// void increment(int a,int arr[],int size ){
+//   a++;
+//   arr[0]++;
+// }
+// int main(){
+//   int a = 10;
+//   int arr[5] = {1,2,3,4,5};
+//   arrayPrint(arr,5);
+//   increment(a,arr,5);
+//   cout<<"value of a :"<<a<<endl;
+//   cout<<arr[0]<<endl;
+//   return 0;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // #include <bits/stdc++.h>
 // using namespace std;
